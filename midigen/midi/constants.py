@@ -8,7 +8,8 @@ SCALES = {
     "dorian": (0, 2, 3, 5, 7, 9, 10),
     "phrygian": (0, 1, 3, 5, 7, 8, 10),
     "harmonic": (0, 2, 3, 5, 7, 8, 11),
-    "dominant-phrygian": (0, 1, 4, 5, 7, 8, 10)}
+    "dominant-phrygian": (0, 1, 4, 5, 7, 8, 10),
+    "jazz-minor": (0, 2, 3, 5, 7, 9, 11)}
 
 HARMONIES = {
     "major-triad": (0, 4, 7),
@@ -18,7 +19,9 @@ HARMONIES = {
     "sus2-triad": (0, 2, 7),
     "sus4-triad": (0, 5, 7),
     "major-7th": (0, 4, 7, 11),
-    "minor-7th": (0, 3, 7, 10)}
+    "minor-7th": (0, 3, 7, 10),
+    "major-9th": (0, 4, 7, 11, 14),
+    "minor-9th": (0, 3, 7, 10, 14)}
 
 HARMONY_KEYS = HARMONIES.keys()
 
